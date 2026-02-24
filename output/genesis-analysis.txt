@@ -1,0 +1,438 @@
+    Finished `release` profile [optimized + debuginfo] target(s) in 1.59s
+     Running `target/release/genesis-reader /Users/jeong-gh/sui-genesis/mainnet/genesis.blob`
+Loading genesis from: /Users/jeong-gh/sui-genesis/mainnet/genesis.blob
+
+================================================================================
+  SUI MAINNET GENESIS - COMPREHENSIVE ANALYSIS
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+  1. GENESIS METADATA
+────────────────────────────────────────────────────────────────────────────────
+  Genesis Hash:              [15, 132, 127, 49, 55, 221, 88, 135, 255, 100, 71, 255, 31, 6, 200, 31, 183, 152, 121, 154, 165, 63, 153, 161, 115, 158, 214, 204, 111, 207, 213, 200]
+  Epoch:                     0
+  Sequence Number:           0
+  Timestamp (ms):            1681318800000
+  Clock Timestamp (ms):      0
+  Total Genesis Objects:     592
+  Reference Gas Price:       1000 MIST
+
+────────────────────────────────────────────────────────────────────────────────
+  2. SYSTEM STATE
+────────────────────────────────────────────────────────────────────────────────
+  Protocol Version:          4
+  System State Version:      1
+  Epoch:                     0
+  Reference Gas Price:       1000 MIST
+  Safe Mode:                 false
+  Epoch Start Timestamp:     1681318800000 ms
+
+────────────────────────────────────────────────────────────────────────────────
+  3. SYSTEM PARAMETERS
+────────────────────────────────────────────────────────────────────────────────
+  Epoch Duration:            86400000 ms (24.0 hours)
+  Stake Subsidy Start Epoch: 13
+  Max Validator Count:       150
+  Min Validator Joining Stake:30000000 SUI (30000000000000000 MIST)
+  Low Stake Threshold:       20000000 SUI
+  Very Low Stake Threshold:  15000000 SUI
+  Low Stake Grace Period:    7 epochs
+
+────────────────────────────────────────────────────────────────────────────────
+  4. STAKE SUBSIDY CONFIGURATION
+────────────────────────────────────────────────────────────────────────────────
+  Subsidy Fund Balance:      1000000000 SUI (10.00% of total supply)
+  Distribution Counter:      0
+  Current Distribution:      1111111 SUI per epoch
+  Period Length:              90 epochs
+  Decrease Rate:             1000 basis points (10.0%)
+
+  --- Subsidy Projection ---
+  Period  0:      1111111 SUI/epoch x  90 epochs =        99999999 SUI (cumulative:        99999999 SUI)
+  Period  1:      1000000 SUI/epoch x  90 epochs =        90000000 SUI (cumulative:       189999999 SUI)
+  Period  2:       900000 SUI/epoch x  90 epochs =        81000000 SUI (cumulative:       270999999 SUI)
+  Period  3:       810000 SUI/epoch x  90 epochs =        72900000 SUI (cumulative:       343899999 SUI)
+  Period  4:       729000 SUI/epoch x  90 epochs =        65610000 SUI (cumulative:       409509999 SUI)
+  Period  5:       656100 SUI/epoch x  90 epochs =        59049000 SUI (cumulative:       468558999 SUI)
+  Period  6:       590490 SUI/epoch x  90 epochs =        53144100 SUI (cumulative:       521703099 SUI)
+  Period  7:       531441 SUI/epoch x  90 epochs =        47829690 SUI (cumulative:       569532789 SUI)
+  Period  8:       478296 SUI/epoch x  90 epochs =        43046721 SUI (cumulative:       612579510 SUI)
+  Period  9:       430467 SUI/epoch x  90 epochs =        38742048 SUI (cumulative:       651321559 SUI)
+  Period 10:       387420 SUI/epoch x  90 epochs =        34867844 SUI (cumulative:       686189403 SUI)
+  Period 11:       348678 SUI/epoch x  90 epochs =        31381059 SUI (cumulative:       717570463 SUI)
+  Period 12:       313810 SUI/epoch x  90 epochs =        28242953 SUI (cumulative:       745813417 SUI)
+  Period 13:       282429 SUI/epoch x  90 epochs =        25418658 SUI (cumulative:       771232075 SUI)
+  Period 14:       254186 SUI/epoch x  90 epochs =        22876792 SUI (cumulative:       794108867 SUI)
+  Period 15:       228767 SUI/epoch x  90 epochs =        20589113 SUI (cumulative:       814697981 SUI)
+  Period 16:       205891 SUI/epoch x  90 epochs =        18530201 SUI (cumulative:       833228183 SUI)
+  Period 17:       185302 SUI/epoch x  90 epochs =        16677181 SUI (cumulative:       849905364 SUI)
+  Period 18:       166771 SUI/epoch x  90 epochs =        15009463 SUI (cumulative:       864914828 SUI)
+  Period 19:       150094 SUI/epoch x  90 epochs =        13508517 SUI (cumulative:       878423345 SUI)
+  Period 20:       135085 SUI/epoch x  90 epochs =        12157665 SUI (cumulative:       890581010 SUI)
+  Period 21:       121576 SUI/epoch x  90 epochs =        10941898 SUI (cumulative:       901522909 SUI)
+  Period 22:       109418 SUI/epoch x  90 epochs =         9847709 SUI (cumulative:       911370618 SUI)
+  Period 23:        98477 SUI/epoch x  90 epochs =         8862938 SUI (cumulative:       920233556 SUI)
+  Period 24:        88629 SUI/epoch x  90 epochs =         7976644 SUI (cumulative:       928210201 SUI)
+  Period 25:        79766 SUI/epoch x  90 epochs =         7178979 SUI (cumulative:       935389181 SUI)
+  Period 26:        71789 SUI/epoch x  90 epochs =         6461081 SUI (cumulative:       941850262 SUI)
+  Period 27:        64610 SUI/epoch x  90 epochs =         5814973 SUI (cumulative:       947665236 SUI)
+  Period 28:        58149 SUI/epoch x  90 epochs =         5233476 SUI (cumulative:       952898713 SUI)
+  Period 29:        52334 SUI/epoch x  90 epochs =         4710128 SUI (cumulative:       957608841 SUI)
+  Period 30:        47101 SUI/epoch x  90 epochs =         4239115 SUI (cumulative:       961847957 SUI)
+  Period 31:        42391 SUI/epoch x  90 epochs =         3815204 SUI (cumulative:       965663161 SUI)
+  Period 32:        38152 SUI/epoch x  90 epochs =         3433683 SUI (cumulative:       969096845 SUI)
+  Period 33:        34336 SUI/epoch x  90 epochs =         3090315 SUI (cumulative:       972187161 SUI)
+  Period 34:        30903 SUI/epoch x  90 epochs =         2781283 SUI (cumulative:       974968444 SUI)
+  Period 35:        27812 SUI/epoch x  90 epochs =         2503155 SUI (cumulative:       977471600 SUI)
+  Period 36:        25031 SUI/epoch x  90 epochs =         2252839 SUI (cumulative:       979724440 SUI)
+  Period 37:        22528 SUI/epoch x  90 epochs =         2027555 SUI (cumulative:       981751996 SUI)
+  Period 38:        20275 SUI/epoch x  90 epochs =         1824800 SUI (cumulative:       983576796 SUI)
+  Period 39:        18248 SUI/epoch x  90 epochs =         1642320 SUI (cumulative:       985219117 SUI)
+  Period 40:        16423 SUI/epoch x  90 epochs =         1478088 SUI (cumulative:       986697205 SUI)
+  Period 41:        14780 SUI/epoch x  90 epochs =         1330279 SUI (cumulative:       988027484 SUI)
+  Period 42:        13302 SUI/epoch x  90 epochs =         1197251 SUI (cumulative:       989224736 SUI)
+  Period 43:        11972 SUI/epoch x  90 epochs =         1077526 SUI (cumulative:       990302262 SUI)
+  Period 44:        10775 SUI/epoch x  90 epochs =          969773 SUI (cumulative:       991272036 SUI)
+  Period 45:         9697 SUI/epoch x  90 epochs =          872796 SUI (cumulative:       992144832 SUI)
+  Period 46:         8727 SUI/epoch x  90 epochs =          785516 SUI (cumulative:       992930349 SUI)
+  Period 47:         7855 SUI/epoch x  90 epochs =          706965 SUI (cumulative:       993637314 SUI)
+  Period 48:         7069 SUI/epoch x  90 epochs =          636268 SUI (cumulative:       994273583 SUI)
+  Period 49:         6362 SUI/epoch x  90 epochs =          572641 SUI (cumulative:       994846224 SUI)
+  Total Subsidy to Distribute: 1000000000 SUI over ~50 periods
+
+────────────────────────────────────────────────────────────────────────────────
+  5. STORAGE FUND
+────────────────────────────────────────────────────────────────────────────────
+  Total Object Storage Rebates: 0 SUI
+  Non-Refundable Balance:       0 SUI
+
+────────────────────────────────────────────────────────────────────────────────
+  6. VALIDATORS (100 total)
+────────────────────────────────────────────────────────────────────────────────
+  Total Stake:               4655000000 SUI
+
+  #    Name                                    Stake (SUI)  Gas Price    Comm% Vote Power
+  --------------------------------------------------------------------------------------
+  1    stakingcabin                              150000000       1000       2%        323
+  2    Triton One                                150000000       1000       2%        323
+  3    Blockscope.net                            150000000       1000       2%        323
+  4    ContributionDAO                           150000000       1000       2%        323
+  5    Overclock                                 150000000       1000       2%        323
+  6    Mysten-2                                  150000000       1000       2%        323
+  7    Figment                                   150000000       1000       2%        323
+  8    Chainode Tech                             150000000       1000       2%        323
+  9    TestnetPride                              150000000       1000       2%        323
+  10   Mysten-1                                  150000000       1000       2%        323
+  11   BwareLabs                                  80000000       1000       2%        172
+  12   Cogent Crypto                              80000000          1       0%        172
+  13   Chainbase                                  80000000       1000       2%        172
+  14   Coinbase Cloud                             80000000       1000       2%        172
+  15   Shinlabs                                   80000000       1000       2%        172
+  16   Citadel.one                                80000000       1000       2%        172
+  17   Nodes.Guru                                 80000000       1000       2%        172
+  18   Chorus One                                 80000000       1000       8%        172
+  19   Dankuzone_w_DAIC                           80000000       1000       2%        172
+  20   mrgn                                       80000000        500      10%        172
+  21   nelrann                                    80000000       1000       2%        172
+  22   Scale3Labs                                 80000000       1000       2%        172
+  23   HashedPotatoes                             80000000       1000       2%        172
+  24   BartestneT                                 80000000       1000       2%        172
+  25   Galaxy Digital                             80000000       1000       2%        172
+  26   Luganodes                                  80000000       1000       2%        172
+  27   Ahoy Validator                             80000000       1000       2%        172
+  28   TPT                                        80000000       1000       2%        172
+  29   Artifact                                   80000000          1       2%        172
+  30   P-OPS Team                                 80000000       1000       2%        172
+  31   Astro-Stakers                              25000000       1000       2%         54
+  32   01node                                     25000000       1000       2%         54
+  33   KingSuper                                  25000000       1000       2%         54
+  34   Everstake                                  25000000       1000       2%         54
+  35   n1stake                                    25000000       1000       2%         54
+  36   Staking Facilities                         25000000       1000       2%         54
+  37   Staking Defense League                     25000000       1000      10%         54
+  38   Stardust Staking                           25000000       1000       2%         54
+  39   B-Harvest                                  25000000       1000       2%         54
+  40   Allnodes                                   25000000       1000       2%         54
+  41   Swiss Staking                              25000000       1000       2%         54
+  42   Staked                                     25000000       1000       2%         54
+  43   Restake                                    25000000       1000       2%         54
+  44   DSRV                                       25000000       1000       2%         54
+  45   KiligLab                                   25000000       1000       2%         54
+  46   proofgroup                                 25000000       1000       2%         54
+  47   BlockVision                                25000000       1000       2%         54
+  48   Neuler                                     25000000       1000       2%         54
+  49   Aftermath                                  25000000       1000       2%         54
+  50   BiXinKelePool                              25000000       1000       2%         54
+  51   [NODERS]TEAM x Criterion VC                25000000       1000       2%         54
+  52   P2P.ORG                                    25000000          1       0%         54
+  53   ANodes                                     25000000       1000       2%         54
+  54   Peeranha                                   25000000       1000       2%         54
+  55   BlockEden.xyz                              25000000       1000       2%         54
+  56   StakeWithUs                                25000000       1000       2%         54
+  57   Brightlystake                              25000000       1000       2%         54
+  58   ONBUFF                                     25000000       1000       2%         54
+  59   Imperator                                  25000000       1000       2%         54
+  60   SynergyNodes                               25000000       1000      10%         54
+  61   SyncNode                                   25000000       1000       2%         54
+  62   ComingChat                                 20000000       1000       2%         42
+  63   InfStones                                  20000000       1000       2%         42
+  64   Gaucho                                     20000000        500      10%         42
+  65   H2O Nodes                                  20000000       1000      10%         42
+  66   A41                                        20000000       1000       2%         42
+  67   Parasol                                    20000000       1000       2%         42
+  68   Cypher Capital                             20000000       1000       2%         42
+  69   Cosmostation                               20000000       1000       2%         42
+  70   Chainflow                                  20000000       1000       2%         42
+  71   Qredo                                      20000000       1000       2%         42
+  72   Laine                                      20000000       1000       2%         42
+  73   Omnistake                                  20000000       1000       2%         42
+  74   BLRD                                       20000000       1000       2%         42
+  75   Forbole                                    20000000       1000       2%         42
+  76   Kiln                                       20000000       1000       2%         42
+  77   Google Cloud Web3                          20000000       1000       2%         42
+  78   Blockdaemon                                20000000       1000       2%         42
+  79   Stakely                                    20000000       1000       2%         42
+  80   QuantNode                                  20000000       1000       2%         42
+  81   stakefish                                  20000000       1000       2%         42
+  82   SpartanLabs                                20000000       1000       2%         42
+  83   Staketab                                   20000000       1000       2%         43
+  84   RepublicCrypto                             20000000       1000      10%         43
+  85   NodeReal                                   20000000       1000       2%         43
+  86   Nodeinfra                                  20000000       1000       2%         43
+  87   BACKBONE                                   20000000       1000       2%         43
+  88   gumi                                       20000000       1000       2%         43
+  89   Stakin                                     20000000       1000       2%         43
+  90   SenseiNode                                 20000000       1000       2%         43
+  91   XPRV                                       20000000       1000       2%         43
+  92   flipside                                   20000000       1000       2%         43
+  93   Moonlet                                    20000000       1000       2%         43
+  94   Juicy Stake                                20000000       1000       2%         43
+  95   MoveFunsDAO                                20000000       1000       2%         43
+  96   Node Guardians                             20000000       1000       2%         43
+  97   TDMTech                                    20000000       1000       2%         43
+  98   OKXEarn                                    20000000       1000       2%         43
+  99   Ankr                                       20000000       1000       2%         43
+  100  HashQuark                                  20000000       1000       2%         43
+
+  --- Validator Statistics ---
+  Max Stake:       150000000 SUI
+  Min Stake:       20000000 SUI
+  Average Stake:   46550000 SUI
+  Median Stake:    25000000 SUI
+
+  --- Stake Tier Distribution ---
+  20M SUI:   39 validators (39.0%)
+  25M SUI:   31 validators (31.0%)
+  80M SUI:   20 validators (20.0%)
+  150M SUI:  10 validators (10.0%)
+  Other:     0 validators (0.0%)
+
+  --- Gas Price Distribution ---
+  1 MIST: 3 validators
+  500 MIST: 2 validators
+  1000 MIST: 95 validators
+
+  --- Commission Rate Distribution ---
+  0%: 2 validators
+  2%: 91 validators
+  8%: 1 validators
+  10%: 6 validators
+
+  --- Validator Network Details ---
+  stakingcabin | addr: 0x68cf08c4ef8b0462d8c3879f4e26cc371fbddd844650d0c41a9c3badc8104609 | net: /dns/mnv.sui.stakingcabin.com/tcp/8080/http | p2p: /dns/mnv.sui.stakingcabin.com/udp/8084
+  Triton One | addr: 0xa608b66f7ae2201286f7dd07a8b073cde7955b35056629636a6c9b3f5275f384 | net: /dns/validator.mainnet.sui.rpcpool.com/tcp/8080/http | p2p: /dns/validator.mainnet.sui.rpcpool.com/udp/8084
+  Blockscope.net | addr: 0x9782704c86b40c55e709fb866865c507c732fa0af5b87246feabfef4423f4f90 | net: /dns/sui.blockscope.net/tcp/8080/http | p2p: /dns/sui.blockscope.net/udp/8084
+  ContributionDAO | addr: 0xefa5f0435f230579dc95f219a1a8929f91b98cba727d7c1de8b10738be431ade | net: /dns/sui-mainnnet.contributiondao.com/tcp/8080/http | p2p: /dns/sui-mainnnet.contributiondao.com/udp/8084
+  Overclock | addr: 0x02189430bd03a05813f0b5998dd6e400d21e831d31f609bb0142b869e0fa020b | net: /dns/sui-mainnet.overclock.run/tcp/8080/http | p2p: /dns/sui-mainnet.overclock.run/udp/8084
+  Mysten-2 | addr: 0xcb7efe4253a0fe58df608d8a2d3c0eea94b4b40a8738c8daae4eb77830c16cd7 | net: /dns/mysten-2.mainnet.sui.io/tcp/8080/http | p2p: /dns/mysten-2.mainnet.sui.io/udp/8084
+  Figment | addr: 0x8ecaf4b95b3c82c712d3ddb22e7da88d2286c4653f3753a86b6f7a216a3ca518 | net: /dns/sui-mainnet-figment.staking.production.figment.io/tcp/8080/http | p2p: /dns/sui-mainnet-figment.staking.production.figment.io/udp/8084
+  Chainode Tech | addr: 0xe05098c2049b9e4c37be7a3be42214498603b981d514a581ef741dc628651b1a | net: /dns/sui-mainnet.chainode.tech/tcp/8080/http | p2p: /dns/sui-mainnet.chainode.tech/udp/8084
+  TestnetPride | addr: 0xad1ca3844353d0c1b86fea2d848fda0c62439168c29e132ef17f9964a19a551f | net: /dns/sui-mainnet.testnet-pride.com/tcp/8080/http | p2p: /dns/sui-mainnet.testnet-pride.com/udp/8084
+  Mysten-1 | addr: 0x4fffd0005522be4bc029724c7f0f6ed7093a6bf3a09b90e62f61dc15181e1a3e | net: /dns/mysten-1.mainnet.sui.io/tcp/8080/http | p2p: /dns/mysten-1.mainnet.sui.io/udp/8084
+  BwareLabs | addr: 0x2761e3db0abe9a2029291980ebad551b7c68dd53d1150adfa9f9ed8a2368458e | net: /ip4/141.95.34.55/tcp/8080/http | p2p: /ip4/141.95.34.55/udp/8084
+  Cogent Crypto | addr: 0x43b8f743162704af85214b0d0159fbef11aae0e996a8e9eac7fafda7fc5bd5f2 | net: /dns/suinode.cogentcrypto.io/tcp/8080/http | p2p: /dns/suinode.cogentcrypto.io/udp/8084
+  Chainbase | addr: 0x91b3d7211dbe057d02e2aa06f1cd678f1408438d494d2e783e0b67a77cca4599 | net: /dns/mainnet-validator.sui.chainbase.online/tcp/8080/http | p2p: /dns/mainnet-validator.sui.chainbase.online/udp/8084
+  Coinbase Cloud | addr: 0x0350925241ae8d4083fe4b1104e14dd28d2ffeced9d7575551c50c41b99995fb | net: /dns/p2p.7861b075-7a9d-4ed7-a4fb-a861830573e1.sui.bison.run/tcp/8080/http | p2p: /dns/p2p.7861b075-7a9d-4ed7-a4fb-a861830573e1.sui.bison.run/udp/8084
+  Shinlabs | addr: 0xd01cb1b0c196042fde8af58e9b3208fe5e64d920bb3f9ace9064c4b7d8c64cf5 | net: /dns/sui-mainnet.shinlabs.xyz/tcp/8080/http | p2p: /dns/sui-mainnet.shinlabs.xyz/udp/8084
+  Citadel.one | addr: 0x4f9791d5c689306862b4eb9a25914c5433b7dfd5cb4827b461f7dfc813f28a7c | net: /dns/sui-val.citadel.one/tcp/8080/http | p2p: /dns/sui-val.citadel.one/udp/8084
+  Nodes.Guru | addr: 0xec73ec4d6b2a9403937b12ca625f7b3124c4459ff4e3caae6cf6376edefb9f3a | net: /dns/sui-validator.nodes.guru/tcp/8080/http | p2p: /dns/sui-validator.nodes.guru/udp/8084
+  Chorus One | addr: 0xd6edebcfa598dcb6e71037b34f09ddc6a20dd874edca1d89d5ccd11ec070d040 | net: /dns/sui-mainnet.chorus.one/tcp/8080/http | p2p: /dns/sui-mainnet.chorus.one/udp/8084
+  Dankuzone_w_DAIC | addr: 0x55d2bd7e02c0863914c3af925188c6947e9209b39eb304c630525d69294c3be0 | net: /dns/sui-mainnet.dzdaic.com/tcp/8080/http | p2p: /dns/sui-mainnet.dzdaic.com/udp/8084
+  mrgn | addr: 0xe719405821d7bd32ded86a2aed34f06f3dacd09c91241ec3f34b219ebeddc6f0 | net: /dns/mainnet.fengsui.wtf/tcp/8080/http | p2p: /dns/mainnet.fengsui.wtf/udp/8084
+  nelrann | addr: 0x4430b86069d8850d9bee199739e5fc90bb0f323a5a7735f431ec7a5fb5409e6b | net: /dns/sui-validator.nelrann.org/tcp/8080/http | p2p: /dns/sui-validator.nelrann.org/udp/8084
+  Scale3Labs | addr: 0xf9c6994c28a882fc87c0e69a44d0bf29796ff8256621d26eea49f3d776c6133e | net: /dns/sui-mainnet-validator.scale3labs.com/tcp/8080/http | p2p: /dns/sui-mainnet-validator.scale3labs.com/udp/8084
+  HashedPotatoes | addr: 0x574c1625635f7311eb6df2f5aa2f0482c33e83498063942c0585f2363fc0ee02 | net: /dns/suimain.hashedpotatoes.net/tcp/8080/http | p2p: /dns/suimain.hashedpotatoes.net/udp/8084
+  BartestneT | addr: 0x2622b55585033f26b0a86b378de1a6284c2dda531e52ef30ea87a8df81f4630a | net: /dns/sui-validator.bartestnet.com/tcp/8080/http | p2p: /dns/sui-validator.bartestnet.com/udp/8084
+  Galaxy Digital | addr: 0x60ce054d9dc5771fcbeb9a52a1881a97d3092efc8eb29befc3e60281dbe80ca0 | net: /dns/sui.bci.glxy.com/tcp/8080/http | p2p: /dns/sui.bci.glxy.com/udp/8084
+  Luganodes | addr: 0x7e254f0f55e24b8a6995567241618f750d0d94f2cf49b36703869779d2ee4327 | net: /dns/sui-mainnet.nodes.lgns.xyz/tcp/8080/http | p2p: /dns/sui-mainnet.nodes.lgns.xyz/udp/8084
+  Ahoy Validator | addr: 0x51ff201c85824151a1c4f80637f39032788b0f00de88e97a6f7deb56d2e38f49 | net: /dns/main.ahoyvalidator.xyz/tcp/8080/http | p2p: /dns/main.ahoyvalidator.xyz/udp/8084
+  TPT | addr: 0x16c48b033a860c39905842eb52178d612c323e4418d5a90b29dba4ebc5895b00 | net: /dns/sui-mainnet.thepassivetrust.com/tcp/8080/http | p2p: /dns/sui-mainnet.thepassivetrust.com/udp/8084
+  Artifact | addr: 0xc77c9ba2f86fe51cefb7aa340c6956f5c0818f999004389ab95330ba839dfb0c | net: /dns/sui.artifact-staking.io/tcp/8080/http | p2p: /dns/sui.artifact-staking.io/udp/8084
+  P-OPS Team | addr: 0xd1dbb08191b4ae8e227935669c1862ba75a41cd7df5970002eafb2f365c32ed8 | net: /dns/val01-sui-m.pops.one/tcp/8080/http | p2p: /dns/val01-sui-m.pops.one/udp/8084
+  Astro-Stakers | addr: 0xf4da1d0d8eba4aed89542daa6d720fed039012f36a2ec42563c9adb50726a09c | net: /dns/sui-main.astrostakers.com/tcp/8080/http | p2p: /dns/sui-main.astrostakers.com/udp/8084
+  01node | addr: 0x876e2ad4ba0375c7752d24ca47c69e7096e6dbfd82a215612a08f47cffebcfbc | net: /dns/sui-mainnet.01no.de/tcp/8080/http | p2p: /dns/sui-mainnet.01no.de/udp/8084
+  KingSuper | addr: 0x970f9006836b3eead979bbb97d2ae8f8f331a0834209f2bc878ed142fa9ad1ee | net: /dns/sui-mainnet.kingsuper.services/tcp/8080/http | p2p: /dns/sui-mainnet.kingsuper.services/udp/8084
+  Everstake | addr: 0xbba318294a51ddeafa50c335c8e77202170e1f272599a2edc40592100863f638 | net: /dns/sui-main.everstake.one/tcp/8080/http | p2p: /dns/sui-main.everstake.one/udp/8084
+  n1stake | addr: 0x1290ab8bca1c136d2b86967674a43a0f5cb30b352f90233cc37ebf7452b96787 | net: /dns/sui-mainnet.n1stake.com/tcp/8080/http | p2p: /dns/sui-mainnet.n1stake.com/udp/8084
+  Staking Facilities | addr: 0xc3af1f2ca3dc69a70616fa3707f67a9367f8d01d4b75a40520b931d42241695e | net: /dns/sui.stakingwizard.com/tcp/8080/http | p2p: /dns/sui.stakingwizard.com/udp/8084
+  Staking Defense League | addr: 0x27002933548d3c8a5d8e2fbddc541e1e66aeeaff1b60465c2df52974f96ad3d0 | net: /dns/sui-mainnet.stakingdefenseleague.com/tcp/8080/http | p2p: /dns/sui-mainnet.stakingdefenseleague.com/udp/8084
+  Stardust Staking | addr: 0x96c01291eb1d4f02aacc1e466d2980a8fdfbea96661ad8da4f8569af49b619a1 | net: /dns/sui.starduststaking.com/tcp/8080/http | p2p: /dns/sui.starduststaking.com/udp/8084
+  B-Harvest | addr: 0x641c736d38b329dae7879d5164566e9256825c5fc82b2565b50d45e6a6522c1d | net: /dns/sui-v.bharvest.io/tcp/8080/http | p2p: /dns/sui-v.bharvest.io/udp/8084
+  Allnodes | addr: 0x885c0345bbf4441f39b98caf2295640a4dc3696ee9e8bc68f2101ca5e6f9bbf1 | net: /dns/sui.allnodes.me/tcp/8080/http | p2p: /dns/sui.allnodes.me/udp/8084
+  Swiss Staking | addr: 0xc21c40c94c712f17244d8518688dbaaa81ba232c15cb13dbba138ead55451e43 | net: /dns/sui.swiss-staking.ch/tcp/8080/http | p2p: /dns/sui.swiss-staking.ch/udp/8084
+  Staked | addr: 0x3047b5258a4ba6d7a6bea9ada69cb336ecfb24fe1c3cea83094396665eba0de5 | net: /dns/sui-mainnet.prod-eks-eu-west-1.staked.cloud/tcp/8080/http | p2p: /dns/sui-mainnet-udp.prod-eks-eu-west-1.staked.cloud/udp/8084
+  Restake | addr: 0xe08d75c562928f58bdbe697e7e35de4802535722337d88305669286e649a104c | net: /dns/restake-sui-main-00-0.machine.restake.tech/tcp/8080/http | p2p: /dns/restake-sui-main-00-0.machine.restake.tech/udp/8084
+  DSRV | addr: 0x6f4e73ee97bfae95e054d31dff1361a839aaadf2cfdb873ad2b07d479507905a | net: /dns/validator-01.sui.dsrvlabs.net/tcp/8080/http | p2p: /dns/validator-01.sui.dsrvlabs.net/udp/8084
+  KiligLab | addr: 0xf7abab51fdf9b4626ce706a5dfbb3da13a715700149bc816dfbee2ae73d61be5 | net: /dns/mainnet.sui.kiliglab.io/tcp/8080/http | p2p: /dns/mainnet.sui.kiliglab.io/udp/8084
+  proofgroup | addr: 0x22a4a737eb86d98a62336dd4cf6b957321884dda7446b7c4c720f2c9090aa7c3 | net: /dns/sui-main.proofgroup.xyz/tcp/8080/http | p2p: /dns/sui-main.proofgroup.xyz/udp/8084
+  BlockVision | addr: 0xd939e3fe7ea4d503f84767dca0c58b7ec1c71f085638a4c0611aa64aa71b5fcf | net: /dns/sui-validator.blockvision.org/tcp/8080/http | p2p: /dns/sui-validator.blockvision.org/udp/8084
+  Neuler | addr: 0x0de5a09a0b029b0c4f1017a58dc78a2341511a7f6ba4925287aa836c1166dbbe | net: /dns/sui.validator.neuler.xyz/tcp/8080/http | p2p: /dns/sui.validator.neuler.xyz/udp/8084
+  Aftermath | addr: 0xd30018ec3f5ff1a3c75656abf927a87d7f0529e6dc89c7ddd1bd27ecb05e3db2 | net: /dns/validator.sui.mainnet.aftermath.finance/tcp/8080/http | p2p: /dns/validator.sui.mainnet.aftermath.finance/udp/8084
+  BiXinKelePool | addr: 0xfdac6c544f156578adb6adfa351bb4d1fc85f9025af67818ffef87ce868b1644 | net: /dns/n1.sui.kelepool.io/tcp/8080/http | p2p: /dns/n1.sui.kelepool.io/udp/8084
+  [NODERS]TEAM x Criterion  | addr: 0xee6e1f8e2726e6bc2bf36ab7dd5736afff076704b12271a332f49f8e7d0bf756 | net: /dns/45.76.150.11/tcp/8080/http | p2p: /dns/45.76.150.11/udp/8084
+  P2P.ORG | addr: 0xa92837bac51949cd6bac41dcec57d2a769f3c2cd2e8c0512f3eea0a2a2102b94 | net: /dns/val1.premainnet.sui.p2p.org/tcp/8080/http | p2p: /dns/val1.premainnet.sui.p2p.org/udp/8084
+  ANodes | addr: 0xa2ae7af4173722d07df5096a52f305f5d94578f4b78d301056a4b3b05e636488 | net: /dns/8.217.53.250/tcp/8080/http | p2p: /dns/8.217.53.250/udp/8084
+  Peeranha | addr: 0xb788ef0e41bc4105cd4c90ff269d07ccf0c8c62552b981c38966f338f69e0e09 | net: /dns/sui-validator.peeranha.io/tcp/8080/http | p2p: /dns/sui-validator.peeranha.io/udp/8084
+  BlockEden.xyz | addr: 0x3b5664bb0f8bb4a8be77f108180a9603e154711ab866de83c8344ae1f3ed4695 | net: /dns/sui-mainnet-validator.blockeden.xyz/tcp/8080/http | p2p: /dns/sui-mainnet-validator.blockeden.xyz/udp/8084
+  StakeWithUs | addr: 0xa36a0602be0fcbc59f7864c76238e5e502a1e13150090aab3c2063d34dde1d8a | net: /dns/sui-mainnet.stakewith.us/tcp/8080/http | p2p: /dns/sui-mainnet.stakewith.us/udp/8084
+  Brightlystake | addr: 0x59031a8ba47e04dade3eea9dba0c7ccf8ed3ab9d51d7561add640f687add04ed | net: /dns/sui-mainnet.brightlystake.com/tcp/8080/http | p2p: /dns/sui-mainnet.brightlystake.com/udp/8084
+  ONBUFF | addr: 0xfcb6007ef5f253d4e8ad894a4278bd780a1e1b7b5a17ffbf47f10e73b2508e66 | net: /dns/mainnet-sui-validator.onbuff.com/tcp/8080/http | p2p: /dns/mainnet-sui-validator.onbuff.com/udp/8084
+  Imperator | addr: 0xdac37b139f9376a45bf6fda1dd691962008ac9647f59086c90a6ad2777f27336 | net: /dns/sui-mainnet.imperator.co/tcp/8080/http | p2p: /dns/sui-mainnet.imperator.co/udp/8084
+  SynergyNodes | addr: 0xcda5da2f66fae9abe9620900c4e91d5b72e514b01fc17fbb27587e6c3f3b9f36 | net: /dns/sui.synergynodes.com/tcp/8080/http | p2p: /dns/sui.synergynodes.com/udp/8084
+  SyncNode | addr: 0xdd7330643eed25139d9fed288361e4cd3db54c7e0e8daecf26de4f99bbd71352 | net: /dns/suimain1.syncnode.ro/tcp/8080/http | p2p: /dns/suimain1.syncnode.ro/udp/8084
+  ComingChat | addr: 0x11ec7353e9e08ed4ca13b935ad930a2f937112736aec5eedd08c95cc5cd4c264 | net: /dns/sui-mainnet-validator.coming.chat/tcp/8080/http | p2p: /dns/sui-mainnet-validator.coming.chat/udp/8084
+  InfStones | addr: 0x8f8ea04f3b751533db8b8da0a40eba1ca8332a92680f058d83b9459d061aaa54 | net: /dns/prod.sui.infstones.io/tcp/8080/http | p2p: /dns/prod.sui.infstones.io/udp/8084
+  Gaucho | addr: 0xdead0072f3a00a250cc8dd90315e92822130258105a494f831ee9bb1576fd71f | net: /dns/sui.wizardfiction.com/tcp/8080/http | p2p: /dns/sui.wizardfiction.com/udp/8084
+  H2O Nodes | addr: 0x4ce8d9d329879f3b361c9515f48acc0f91b283a7305f6c9c789b0c8d1ebf43f2 | net: /dns/sui-testnet.h2o-nodes.com/tcp/8080/http | p2p: /dns/sui-testnet.h2o-nodes.com/udp/8084
+  A41 | addr: 0x633344069731c08d06212beb1c2fd2f9d87e53295335733c3e4bb059950513d6 | net: /dns/validator.sui.a41.io/tcp/8080/http | p2p: /dns/validator.sui.a41.io/udp/8084
+  Parasol | addr: 0x054f9044e0fd71c2ff621981c332ba41d686fb705143d1dfd3a3b69a46e8f66e | net: /dns/mainnet.parasolsui.com/tcp/8080/http | p2p: /dns/mainnet.parasolsui.com/udp/8084
+  Cypher Capital | addr: 0xdfc9709adae2917a9be213c8d651b150517fbc8b99106bbd3020e618335ccf18 | net: /dns/cypher-mainnet.juicystake.io/tcp/8080/http | p2p: /dns/cypher-mainnet.juicystake.io/udp/8084
+  Cosmostation | addr: 0x184fbf9d6c2d2d3f27e27fe3ca2d3b4080bd406221e345e2d36633e638e988e1 | net: /dns/sui-mainnet-validator.cosmostation.io/tcp/8080/http | p2p: /dns/sui-mainnet-validator.cosmostation.io/udp/8084
+  Chainflow | addr: 0xbc7e7537564bd939b62e5b24477ac00ba8cef33ccec72d63090a080a1253b725 | net: /dns/suimain01.chainflow.io/tcp/8080/http | p2p: /dns/suimain01.chainflow.io/udp/8084
+  Qredo | addr: 0xe85738f9cb22cf80f77b861a9e9aca13c0a297cf0f1c075d35a9b3fb94bf6f89 | net: /dns/sui.validators.qredo.network/tcp/8080/http | p2p: /dns/sui.validators.qredo.network/udp/8084
+  Laine | addr: 0x9062fc51d91056246dc31f2b818a4ddb113a044ec22c8dd0674616bbe56f7192 | net: /dns/sui-mainnet.laine.one/tcp/8080/http | p2p: /dns/sui-mainnet.laine.one/udp/8084
+  Omnistake | addr: 0x0c1bebfe4c2258f16282f3ab186151c91f4349c5b2956e831a8f670a71709b90 | net: /dns/sui.omnistake.com/tcp/8080/http | p2p: /dns/sui-udp.omnistake.com/udp/8084
+  BLRD | addr: 0x1ea86ae398023fb87b522673020b1709640221566de33585acfcf6a865f6f467 | net: /dns/validator-sui-mainnet.blrd.inc/tcp/8080/http | p2p: /dns/validator-sui-mainnet.blrd.inc/udp/8084
+  Forbole | addr: 0x1e1985024aafe50a8e4eafc5a89eb7ecd58ba08c39f37688bee00bd55c8b2059 | net: /dns/sui-mainnet.forbole.com/tcp/8080/http | p2p: /dns/sui-mainnet.forbole.com/udp/8084
+  Kiln | addr: 0x92c7bf9914897e8878e559c19a6cffd22e6a569a6dd4d26f8e82e0f2ad1873d6 | net: /dns/validator-0.sui.mainnet.kiln.fi/tcp/8080/http | p2p: /dns/validator-0.sui.mainnet.kiln.fi/udp/8084
+  Google Cloud Web3 | addr: 0x25351276ab5b685c014b193ab71be3fc77ab8ee1a020a06d6174dbc18986a06a | net: /ip4/34.27.198.206/tcp/8080/http | p2p: /ip4/34.27.198.206/udp/8084
+  Blockdaemon | addr: 0xceb2b8c295ee322cd299e4bdc3d3d0dce1dc9c85eb683f7d82ea2e4f8f4e259f | net: /dns/bd-sui-main-validator-01.bdnodes.net/tcp/8080/http | p2p: /dns/bd-sui-main-validator-01.bdnodes.net/udp/8084
+  Stakely | addr: 0x9c7376a3f903cbe1f467a4edbefb54bb5a2f10886496c591ca955c22f0ae10c9 | net: /dns/sui.stakely.io/tcp/8080/http | p2p: /dns/sui.stakely.io/udp/8084
+  QuantNode | addr: 0xe0e042d1aacba8abf6f32be86c555a08eae5ba2b7972c912f7451104391e8c57 | net: /dns/validator.sui.quantnode.tech/tcp/8080/http | p2p: /dns/validator.sui.quantnode.tech/udp/8084
+  stakefish | addr: 0xd1d00bcc9661120fc6b0f233a2f6810f39e71b39fc637cb1b9e5635edb3b0c40 | net: /dns/sui-mainnet.ops.fish/tcp/8080/http | p2p: /dns/sui-mainnet.ops.fish/udp/8084
+  SpartanLabs | addr: 0xa987c410fa047b973d479555894c85208c4450ef65fd1d8d5911b46fbca83365 | net: /dns/sui.fish/tcp/8080/http | p2p: /dns/sui.fish/udp/8084
+  Staketab | addr: 0x61953ea72709eed72f4441dd944eec49a11b4acabfc8e04015e89c63be81b6ab | net: /dns/sui-mainnet.staketab.com/tcp/8080/http | p2p: /dns/sui-mainnet.staketab.com/udp/8084
+  RepublicCrypto | addr: 0x333b6f2a08d138e8c98d84258859b701a4215e2fabb2aee69300f9f4604cda92 | net: /dns/v.sui.mainnet.republiccrypto-source.info/tcp/8080/http | p2p: /dns/v.sui.mainnet.republiccrypto-source.info/udp/8084
+  NodeReal | addr: 0x262d556ae0d627450a91a353ddc3aaeb9ff0549172daf4d94ffb3a4401e6f930 | net: /dns/sui-mainnet-validator.nodereal.io/tcp/8080/http | p2p: /dns/sui-mainnet-validator.nodereal.io/udp/8084
+  Nodeinfra | addr: 0x5d6ee8465b31200131242fa79e84893518f6e3929d995f385ca9eda74db2361d | net: /dns/sui-mainnet.nodeinfravalidators.com/tcp/8080/http | p2p: /dns/sui-mainnet.nodeinfravalidators.com/udp/8084
+  BACKBONE | addr: 0xd3672e1b60bf051dbb95bfde99fc5fbea89c7856a3bed6ffb4bf990311adaa06 | net: /dns/sui-mainnet.backbone.link/tcp/8080/http | p2p: /dns/sui-mainnet.backbone.link/udp/8084
+  gumi | addr: 0xa528acf0c239c28985da3170870629eb58dd9fb2683548317ce0a218427abb8d | net: /dns/mainnet.sui.gu3.jp/tcp/8080/http | p2p: /dns/mainnet.sui.gu3.jp/udp/8084
+  Stakin | addr: 0x9b8b11c9b2336d35f2db8d5318ff32de51b85857f0e53a5c31242cf3797f4be4 | net: /dns/sui-mainnet.stakin-nodes.com/tcp/8080/http | p2p: /dns/sui-mainnet.stakin-nodes.com/udp/8084
+  SenseiNode | addr: 0x0ae4b2b4ed34dd551a01a946e51c0c431726faf5568659560f76b31642588468 | net: /dns/sui-mainnet.senseinode.com/tcp/8080/http | p2p: /dns/sui-mainnet.senseinode.com/udp/8084
+  XPRV | addr: 0x25afdbeaa4d530119cb464715cead11e0a1ef86256f3020128fbd7013954a99d | net: /dns/sui.xprv.io/tcp/8080/http | p2p: /dns/sui.xprv.io/udp/8084
+  flipside | addr: 0xc6b70330451f4c163ce75625510bf99a8c782a5c5b1dd400a08fc20b2086dc00 | net: /dns/sui.validators.flipside.services/tcp/8080/http | p2p: /dns/sui.validators.flipside.services/udp/8084
+  Moonlet | addr: 0x9d0438098adf019a8c5a8708c7fc0075f6f19fcd251bf3eaabe0c7f74036ce5a | net: /dns/sui-mainnet.moonlet.network/tcp/8080/http | p2p: /dns/sui-mainnet.moonlet.network/udp/8084
+  Juicy Stake | addr: 0xb7847468db546ba85acb9dcdc0c5190b3ca6427d713ff52a4f8183c81f8a39e1 | net: /dns/juicy-sui-main.juicystake.io/tcp/8080/http | p2p: /dns/juicy-sui-main.juicystake.io/udp/8084
+  MoveFunsDAO | addr: 0x8a0907e2990baebbbb87c12821db4845b034e45f937167e68b4925ac3465335a | net: /dns/sui-validator.mainnet.movefuns.org/tcp/8080/http | p2p: /dns/sui-validator.mainnet.movefuns.org/udp/8084
+  Node Guardians | addr: 0xf72816357f8e5638c90ec5b0f7eecee362bac0ef7e64822ea6d686730251a7a0 | net: /dns/sui.nodeguardians.io/tcp/8080/http | p2p: /dns/sui.nodeguardians.io/udp/8084
+  TDMTech | addr: 0xc64e58562d424e248abce5b886b264209c23d05b7b75bc5a1a5e137700f0ddf8 | net: /dns/sui-tdmtech-validator.ankr.com/tcp/8080/http | p2p: /dns/sui-tdmtech-validator.ankr.com/udp/8084
+  OKXEarn | addr: 0x00ae78d3e5ba5d6b8de32455474f52811b95617cbad39ebf4f9e2daf67187407 | net: /dns/3.112.171.175/tcp/18080/http | p2p: /dns/3.112.171.175/udp/18084
+  Ankr | addr: 0xa2bf32db91ad54684cfd8a4e1d85f7672875d62421d40a8d993f601cff9b61ff | net: /dns/sui-mainnet-validator.ankr.com/tcp/8080/http | p2p: /dns/sui-mainnet-validator.ankr.com/udp/8084
+  HashQuark | addr: 0x24f61ae027301ee5ea68559b6d5f96de1c4879e1c85586044e08132d6af6ffd3 | net: /dns/152.32.190.103/tcp/8080/http | p2p: /dns/152.32.190.103/udp/8084
+
+────────────────────────────────────────────────────────────────────────────────
+  7. TOKEN DISTRIBUTION (All Genesis Addresses)
+────────────────────────────────────────────────────────────────────────────────
+
+  #    Owner                                                                   Liquid (SUI)    Staked (SUI)     Total (SUI) % Supply
+  ------------------------------------------------------------------------------------------------------------------------------
+  1    Account Address ( 0x341fa71e4e58d63668034125c3152f935b00b0bb5c68069045d8c646d017fae1 )      1196016477      2938000000      4134016477   41.34%
+  2    Account Address ( 0x36414038336c8ca5b95ba69d0a7236ce8cffa8608e7c823946a1bca9222c81ce )      1575869000      1110000000      2685869000   26.86%
+  3    Account Address ( 0xb78607e24778265e02e584a5a46f7e020fe503c8511ace3aa7485142d65c8e2a )       535714994               0       535714994    5.36%
+  4    Account Address ( 0x571bad7fd728af0fb5589888e8124214467ae3ba7947cff39dea9d0638e5979a )          751203       367000000       367751203    3.68%
+  5    Account Address ( 0x7d819ea06c8dea160dce6a7df62ba3413762f05377087315441f57239198d2ac )        31485416       170000000       201485416    2.01%
+  6    Account Address ( 0x6c6dbe9b3a93a3de77f44b5d9098cf082e951a0d07980be5b891e8f3a4c3bff4 )       181817828               0       181817828    1.82%
+  7    Account Address ( 0xc7ac89792ca1c460c1da5da7f3fdd12cd8271a410b5b318ae857798db66e4b97 )       127272869               0       127272869    1.27%
+  8    Account Address ( 0x00e52cde281d988be82f47d14e191b502582ad91b1559f6808775146cb5c7572 )        28620138        70000000        98620138    0.99%
+  9    Account Address ( 0x401b12291610a49de24271516593b6f9af4d70c1809fb2ed8a5c23691370e5af )        55966722               0        55966722    0.56%
+  10   Account Address ( 0x9dc6b392a806064fa106914b64c05806916cb728e80dad466570db28178bcd3e )        49382307               0        49382307    0.49%
+  11   Account Address ( 0x80841329787fd577639add61cc955ace969af60fadfb05b8ff752c2de4a8aa65 )        46998465               0        46998465    0.47%
+  12   Account Address ( 0x533decc3978e2f8f2230d0d4246e81991125404e88699f699499a1aa7b3f82ec )        46527280               0        46527280    0.47%
+  13   Account Address ( 0x4cd279af2d63e07a9a84064f4bfc2aaf01ee1c412d57a43b0d95c3e311d646db )        18106727               0        18106727    0.18%
+  14   Account Address ( 0x76c883ab8c3ee16244cb5530c82c7209468284acfaceba33ecba28a92ac47459 )        16460769               0        16460769    0.16%
+  15   Account Address ( 0xc8ffe3e51db51c54a2e7bcd61dbd66f50f609c1413a330cf7cdd804cc5f63604 )        16460767               0        16460767    0.16%
+  16   Account Address ( 0x5e9379d0428c83cb485580925bc93968b18741dd7221d7fb686e1167aed801f4 )        16460766               0        16460766    0.16%
+  17   Account Address ( 0xae0e27466c1e697928788d097017548382729b4e4912839f9460a8c79afd762c )        14814808               0        14814808    0.15%
+  18   Account Address ( 0x17235c7381fa293278720c7f5c61346787d014d9d0b2e170ae6fd3b4c1246f85 )        13168261               0        13168261    0.13%
+  19   Account Address ( 0x7dddfcb4eeb8aa7e41ea87b21cbb6779bf845802927ee9c5cd17480b5feebcdb )        10000000               0        10000000    0.10%
+  20   Account Address ( 0x02a71be7a00445c8733d14f7d43ad39e2b8a95879aaddf7ac9c0fe9b3ed7ecff )         9876343               0         9876343    0.10%
+  21   Account Address ( 0x5e315ead28c9f725177103b7aeace1f2eb25c5dc8665d81af5a5ee133564a6f8 )         9876343               0         9876343    0.10%
+  22   Account Address ( 0x876c65f6f6471e815aae150334792b9ab4b53c7b6e511c6cad1c405732fcce5d )         9876343               0         9876343    0.10%
+  23   Account Address ( 0x3c23bbc70784fdef094a0eb90a8256e63421ec133c0beadafcfe1fc17230bade )         9053073               0         9053073    0.09%
+  24   Account Address ( 0x86b16cba438d65598b39cc26ca571a90a84ddda87b895084b538e69d5b4adbcc )         8822927               0         8822927    0.09%
+  25   Account Address ( 0x0c65f51a5c584e4411c03aa7efa1db4f9cb2efa85f313c2a748d3c3c8a10807a )         8000000               0         8000000    0.08%
+  26   Account Address ( 0x2df7261a3b05ee43b175f3691c9c82e36042af5703029b401598e7c585b64dec )         7936149               0         7936149    0.08%
+  27   Account Address ( 0xbb91c7a7f738a712006f1aeb01ecea2409651a75dccb92867dc9e00b3d01407d )         7936149               0         7936149    0.08%
+  28   Account Address ( 0xcfbdc1d389fa9d82d8c040f271f4cb9578ba21047ab72189696fec31a5959ea8 )         7936149               0         7936149    0.08%
+  29   Account Address ( 0xf45da12d06d7a7264e6b46e0e8809ed1edf8330bf503957f069fb70e306c24a8 )         7837231               0         7837231    0.08%
+  30   Account Address ( 0x2c1915edc6e0534b32131e910be5c759fa22f04414bc08f8c966a04a4499f9e2 )         6583837               0         6583837    0.07%
+
+  --- Token Distribution Summary ---
+  Total Addresses:           178
+  Total Liquid:              4345000000 SUI (43.45%)
+  Total Staked:              4655000000 SUI (46.55%)
+  Stake Subsidy Fund:        1000000000 SUI (10.00%)
+  Accounts > 100M SUI:       7
+  Accounts > 1B SUI:         2
+  Running Total:             9000000000 SUI
+
+────────────────────────────────────────────────────────────────────────────────
+  8. CONCENTRATION ANALYSIS
+────────────────────────────────────────────────────────────────────────────────
+  Top  1 address:       4134016477 SUI (41.34%)
+  Top  2 addresses:     6819885477 SUI (68.20%)
+  Top  5 addresses:     7924837090 SUI (79.25%)
+  Top 10 addresses:     8437896955 SUI (84.38%)
+  Top 20 addresses:     8646771141 SUI (86.47%)
+
+  Gini Coefficient:          0.9547 (0=equal, 1=concentrated)
+
+────────────────────────────────────────────────────────────────────────────────
+  9. GENESIS OBJECTS SUMMARY
+────────────────────────────────────────────────────────────────────────────────
+  Object Type                                                     Count
+  ----------------------------------------------------------------------
+  0x2::coin::Coin<0x2::sui::SUI>                                    178
+  0x3::staking_pool::StakedSui                                      107
+  0x2::dynamic_field::Field<0x2::object::ID, address>               100
+  0x2::dynamic_field::Field<u64, 0x3::staking_pool::PoolToken       100
+  0x3::validator_cap::UnverifiedValidatorOperationCap               100
+  Package                                                             3
+  0x2::clock::Clock                                                   1
+  0x2::coin::CoinMetadata<0x2::sui::SUI>                              1
+  0x2::dynamic_field::Field<u64, 0x3::sui_system_state_inner:         1
+  0x3::sui_system::SuiSystemState                                     1
+
+────────────────────────────────────────────────────────────────────────────────
+  10. COMMITTEE INFO
+────────────────────────────────────────────────────────────────────────────────
+  Epoch:                     0
+  Committee Size:            100
+  Total Voting Power:        10000
+
+────────────────────────────────────────────────────────────────────────────────
+  11. ON-CHAIN LOCKING ANALYSIS
+────────────────────────────────────────────────────────────────────────────────
+  NO on-chain time-lock or vesting contracts found in genesis.
+  All tokens are regular GasCoin/StakedSui objects.
+  Any claimed lockups are off-chain promises only.
+
+================================================================================
+  FINAL SUMMARY
+================================================================================
+  Total Supply:      10,000,000,000 SUI
+  Validators:        100 (stake range: 20000000 - 150000000 SUI)
+  Genesis Addresses: 178
+  Concentration:     Top 2 = 68.20%, Gini = 0.9547
+  On-chain Locking:  NONE
+================================================================================

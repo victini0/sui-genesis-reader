@@ -1,0 +1,22 @@
+[package]
+name = "sui-genesis-reader"
+version = "0.1.0"
+edition = "2021"
+description = "Parse and analyze Sui's mainnet genesis.blob — token distribution, validator set, concentration metrics, and on-chain locking status"
+license = "Apache-2.0"
+
+# NOTE: This crate depends on Sui's internal libraries which are not published to crates.io.
+# To build, place this directory inside the Sui repository's crates/ folder:
+#
+#   git clone https://github.com/MystenLabs/sui.git
+#   cp -r sui-genesis-reader sui/crates/
+#   cd sui && cargo run --release -p sui-genesis-reader -- /path/to/genesis.blob
+#
+# See README.md for full instructions.
+
+[dependencies]
+sui-config = { path = "../sui-config" }
+sui-types = { path = "../sui-types" }
+sui-genesis-builder = { path = "../sui-genesis-builder" }
+move-core-types = { path = "../../external-crates/move/crates/move-core-types" }
+serde_json = "1.0"
