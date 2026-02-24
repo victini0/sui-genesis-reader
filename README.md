@@ -44,10 +44,15 @@ git clone https://github.com/MystenLabs/sui.git
 # 3. Clone the genesis blob
 git clone https://github.com/MystenLabs/sui-genesis.git
 
-# 4. Copy this analyzer into Sui's crates directory
+# 4. Copy this reader into Sui's crates directory
 cp -r sui-genesis-reader sui/crates/
 
-# 5. Build and run
+# 5. Register in workspace (add to members array in sui/Cargo.toml)
+sed -i '' '/"crates\/sui-genesis-builder",/a\
+  "crates/sui-genesis-reader",
+' sui/Cargo.toml
+
+# 6. Build and run
 cd sui
 cargo run --release -p sui-genesis-reader -- ../sui-genesis/mainnet/genesis.blob
 ```

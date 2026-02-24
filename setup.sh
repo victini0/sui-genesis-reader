@@ -32,12 +32,18 @@ else
     echo "[2/4] Genesis blob already exists, skipping clone."
 fi
 
-# Copy analyzer into Sui's crates
-echo "[3/4] Copying analyzer into Sui crates directory..."
+# Copy reader into Sui's crates
+echo "[3/5] Copying reader into Sui crates directory..."
 cp -r "$SCRIPT_DIR" "$SCRIPT_DIR/../sui/crates/sui-genesis-reader"
 
+# Register in workspace
+echo "[4/5] Registering in Sui workspace..."
+sed -i '' '/"crates\/sui-genesis-builder",/a\
+  "crates/sui-genesis-reader",
+' "$SCRIPT_DIR/../sui/Cargo.toml"
+
 # Build and run
-echo "[4/4] Building and running (first build takes ~10 minutes)..."
+echo "[5/5] Building and running (first build takes ~10 minutes)..."
 echo ""
 cd "$SCRIPT_DIR/../sui"
 cargo run --release -p sui-genesis-reader -- "$SCRIPT_DIR/../sui-genesis/mainnet/genesis.blob" | tee "$SCRIPT_DIR/output/genesis-analysis.txt"
